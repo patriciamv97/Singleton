@@ -24,6 +24,10 @@ public class Main {
         miUnicaInstancia y otraInstanciaSeraLaMisma son el mismo
          */
         otraInstanciaSeraLaMisma.setEdad(34);
+        //Version 1.1 con otra instancia
+        Singleton versionInstacicia=Singleton.getInstance();
+        versionInstacicia.setNombre("Version 1.1");
+
     }
 
 }
